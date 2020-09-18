@@ -11,6 +11,12 @@ header{
     justify-content: center;
 }
 
+h2{
+    font-size: 1.8rem;
+    font-style: italic;
+
+}
+
 main{
     display: flex;
     flex-direction: column;
