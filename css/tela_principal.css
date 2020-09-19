@@ -6,17 +6,20 @@ body{
 
 header{
     display: flex;
+    flex-direction: row;
     height: 10%;
     width: 100%;
     justify-content: space-between;
 }
 
 main{
-    flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column;
     height: 100%;
     width: 100%;
     margin: 1rem;
     padding: 5%;
+    justify-content: center;
 }
 
 .botao {
