@@ -15,7 +15,7 @@ header{
     display: flex;
     width: 100%;
     height: 10%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: sans-serif;
     font-size: 2rem;
     justify-content: center;
     color: hsl(184, 95%, 17%)
@@ -23,14 +23,14 @@ header{
 
 .titulo{
     font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: sans-serif;
     font-size: 8rem;
 }
 
 main{
     display: flex;
     flex-direction: column;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: sans-serif;
     height: 90%;
     margin: 1rem;
     padding: 5%;
@@ -50,7 +50,7 @@ div{
     margin: 3%;
     border: 0.1rem solid gray;
     padding: 2%;
-    border-radius: 2rems;
+    border-radius: 2rem;
     font-size: 1.5rem;
     text-align: center;
     border-top-color: gray;
@@ -63,7 +63,7 @@ footer{
     display: flex;
     width: 100%;
     height: 10%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: sans-serif;
     font-size: 2rem;
     justify-content: center;
 }
