@@ -30,14 +30,15 @@ main{
     align-items: center;
 }
 
-.logo{
-    width: 100%;
+
+.menu{
+    width: 45%;
     height: auto;
     max-width: 100%;
 }
 
-.menu{
-    width: 45%;
+.logo{
+    width: 100%;
     height: auto;
     max-width: 100%;
 }
@@ -47,17 +48,12 @@ main{
     margin: 1rem;
     padding: 0.4rem;
     font-family: 'Lato', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     border: 0.1rem solid gray;
     border-top-color: gray;
     border-left-color: gray;
     border-radius: 3rem;
-}
-
-.resumos_postagens{
-    font-size: 3rem;
-    max-width: 100%;
 }
 
 .botao{
@@ -88,4 +84,9 @@ main{
     position: relative;
     top: 0.06rem;
     left: 0.06rem;
+}
+
+.resumos_postagens{
+    font-size: 3rem;
+    max-width: 100%;
 }

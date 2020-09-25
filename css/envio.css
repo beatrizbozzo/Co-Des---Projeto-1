@@ -3,12 +3,13 @@ html{
 }
 
 body{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
     width: 100%;
-    margin: 1rem 1rem 0;
+    margin-top: 1rem;
 }
 
 header{
@@ -23,12 +24,12 @@ header{
 }
 
 main{
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    height: 90%;
-    margin: 1rem;
-    padding: 5%;
+    height: 100%;
+    max-width: 100%;
 }
 
 .titulo_palavra{
@@ -40,12 +41,20 @@ main{
 
 div{
     position: relative;
-    display: inline;
+    display: inline-flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    margin: 1rem;
-    padding: 1rem;
     justify-content: center;
+    max-width: 100%;
+
+ }
+
+.fotos{
+    max-width: 100%;
+    width: 17rem;
+    height: 17rem;
 }
+ 
 
 .buscar_perfis{
     width: 100%;
@@ -71,16 +80,17 @@ footer{
 }
 
 .enviar {
+    position: relative;
     width: 10rem;
     margin: 1rem;
     border: 0.3rem solid  hsl(184, 95%, 17%);
+    border-top-color:  hsl(184, 95%, 17%);
+    border-left-color:  hsl(184, 95%, 17%);
     padding: 0.1rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5rem;
     text-align: center;
-    border-top-color:  hsl(184, 95%, 17%);
-    border-left-color:  hsl(184, 95%, 17%);
-    align-self: center;
+    align-self: flex-end;
 }
 
 .enviar:active {
@@ -101,12 +111,12 @@ footer{
     width: 25rem;
     margin: 2rem;
     border: 0.5rem solid hsl(184, 95%, 17%);
+    border-radius: 1.2rem;
+    border-top-color:hsl(184, 95%, 17%);
+    border-left-color: hsl(184, 95%, 17%);
     padding: 1rem;
     font-size: 2rem;
     text-align: center;
-    border-top-color:hsl(184, 95%, 17%);
-    border-left-color: hsl(184, 95%, 17%);
     background-color: rgb(234, 242, 247);
-    align-self: center;
-    border-radius: 1.2rem;
+    align-self: center;  
 }
