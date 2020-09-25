@@ -209,24 +209,3 @@ footer{
     justify-content: center;
     border: 0.2rem solid  hsl(184, 95%, 17%);
 }
-
-.botao_areas {
-    width: 70%;
-    margin: 2%;
-    border: 1rem solid hsl(184, 95%, 17%);
-    padding: 7%;
-    font-size: 250%;
-    text-align: center;
-    border-top-color: hsl(184, 95%, 17%);
-    border-left-color: hsl(184, 95%, 17%);
-    background-color: rgb(234, 242, 247);
-    align-self: center;
-    border-radius: 1.5rem;
-}
-
-.botao_areas:active {
-    border-top-color: hsl(184, 95%, 25%);
-    border-right-color: hsl(184, 95%, 25%);
-    border-bottom-color: hsl(184, 95%, 25%);
-    border-left-color:hsl(184, 95%, 25%);
-    background-color: rgb(247, 245, 159);
