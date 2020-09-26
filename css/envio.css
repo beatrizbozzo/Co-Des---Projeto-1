@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(176, 233, 245);
+    background-color: hsl(200, 7%, 95%);
 }
 
 body{
@@ -20,7 +20,7 @@ header{
     font-size: 6rem;
     justify-content: center;
     font-weight: bold;
-    color: hsl(184, 95%, 17%);
+    color: hsl(200, 37%, 36%);
 }
 
 main{
@@ -59,14 +59,14 @@ div{
 .buscar_perfis{
     width: 100%;
     margin: 2rem;
-    border: 0.3rem solid hsl(184, 95%, 17%);
+    border: 0.3rem solid hsl(200, 7%, 18%);
     border-radius: 6rem;
     padding: 3%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3rem;
     text-align: center;
-    border-top-color: hsl(184, 95%, 17%);
-    border-left-color: hsl(184, 95%, 17%);
+    border-top-color: hsl(200, 7%, 18%);
+    border-left-color: hsl(200, 7%, 18%);
     background-color:  rgb(234, 242, 247);
 }
 
@@ -83,22 +83,24 @@ footer{
     position: relative;
     width: 10rem;
     margin: 1rem;
-    border: 0.3rem solid  hsl(184, 95%, 17%);
-    border-top-color:  hsl(184, 95%, 17%);
-    border-left-color:  hsl(184, 95%, 17%);
+    border: 0.3rem solid  hsl(200, 7%, 18%);
+    border-top-color:  hsl(200, 7%, 18%);
+    border-left-color:  hsl(200, 7%, 18%);
     padding: 0.1rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5rem;
     text-align: center;
     align-self: flex-end;
+    background-color: hsl(200, 37%, 36%);
+    color: white;
 }
 
 .enviar:active {
-    border-top-color:hsl(184, 95%, 25%);
-    border-right-color: hsl(184, 95%, 25%);
-    border-bottom-color: hsl(184, 95%, 25%);
-    border-left-color:hsl(184, 95%, 25%);
-    background-color:  rgb(234, 242, 247);
+    border-top-color:hsl(200, 7%, 18%);
+    border-right-color: hsl(200, 7%, 18%);
+    border-bottom-color: hsl(200, 7%, 18%);
+    border-left-color:hsl(200, 7%, 18%);
+    background-color:  hsl(200, 7%, 66%);
 }
 
 .enviar:active span {
@@ -110,13 +112,13 @@ footer{
 .voltar_tela{
     width: 25rem;
     margin: 2rem;
-    border: 0.5rem solid hsl(184, 95%, 17%);
+    border: 0.5rem solid hsl(200, 7%, 18%);
     border-radius: 1.2rem;
-    border-top-color:hsl(184, 95%, 17%);
-    border-left-color: hsl(184, 95%, 17%);
+    border-top-color:hsl(200, 7%, 18%);
+    border-left-color: hsl(200, 7%, 18%);
     padding: 1rem;
     font-size: 2rem;
     text-align: center;
-    background-color: rgb(234, 242, 247);
+    background-color: hsl(200, 7%, 95%);
     align-self: center;  
 }

@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(176, 233, 245);
+    background-color: hsl(200, 7%, 95%);
     flex-direction: column;
     width:100%;
 }
@@ -22,7 +22,7 @@ header{
     font-size: 6rem;
     font-weight: bold;
     justify-content: center;
-    color: hsl(184, 95%, 17%)
+    color: hsl(200, 37%, 36%)
 }
 
 h1{
@@ -54,16 +54,16 @@ div{
 .imagem_resumo{
     margin: 1rem;
     border: 0.3rem solid;
-    border-color: grey;
+    border-color: hsl(200, 37%, 36%);
 }
 
 .buscar{
-    border: 0.1rem solid gray;
+    border: 0.1rem solid hsl(200, 7%, 66%);
     padding: 2%;
     font-size: 1.5rem;
     text-align: center;
-    border-top-color: gray;
-    border-left-color: gray;
+    border-top-color: hsl(200, 7%, 66%);
+    border-left-color: hsl(200, 7%, 66%);
     align-self: center;
     border-radius: 1rem;
 }
@@ -80,13 +80,13 @@ footer{
 .voltar_tela{
     width: 25rem;
     margin: 2rem;
-    border: 0.2rem solid hsl(184, 95%, 17%);
+    border: 0.2rem solid hsl(200, 7%, 18%);
     border-radius: 1.2rem;
-    border-top-color:hsl(184, 95%, 17%);
-    border-left-color: hsl(184, 95%, 17%);
+    border-top-color:hsl(200, 7%, 18%);
+    border-left-color: hsl(200, 7%, 18%);
     padding: 1rem;
     font-size: 2rem;
     text-align: center;
-    background-color: rgb(234, 242, 247);
+    background-color: hsl(200, 7%, 95%);
     align-self: center;
 }

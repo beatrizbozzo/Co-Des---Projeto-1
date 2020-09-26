@@ -2,7 +2,7 @@ html{
     display: flex;
     flex-direction: column;
     width:100%;
-    background-color: rgb(176, 233, 245);
+    background-color: hsl(200, 7%, 95%);
 }
 
 body{
@@ -50,9 +50,9 @@ main{
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
     text-align: center;
-    border: 0.1rem solid gray;
-    border-top-color: gray;
-    border-left-color: gray;
+    border: 0.1rem solid hsl(200, 7%, 66%);
+    border-top-color: hsl(200, 7%, 66%);
+    border-left-color: hsl(200, 7%, 66%);
     border-radius: 3rem;
 }
 
@@ -60,24 +60,24 @@ main{
     max-width: 100%;
     width: 80%;
     margin: 1rem;
-    border: 1rem solid hsl(184, 95%, 17%);
+    border: 1rem solid hsl(200, 7%, 18%);
     padding: 5%;
     font-family: 'Lato', sans-serif;
     font-size: 3rem;
     text-align: center;
-    border-top-color: hsl(184, 95%, 17%);
-    border-left-color: hsl(184, 95%, 17%);
+    border-top-color: hsl(200, 7%, 18%);
+    border-left-color: hsl(200, 7%, 18%);
     align-self: center;
-    background-color: rgb(234, 242, 247);
+    background-color: hsl(200, 60%, 83%);
     border-radius: 1.5rem;
 }
 
 .botao:active {
-    border-top-color: hsl(184, 95%, 25%);
-    border-right-color: hsl(184, 95%, 25%);
-    border-bottom-color: hsl(184, 95%, 25%);
-    border-left-color: hsl(184, 95%, 25%);
-    background-color: rgb(247, 245, 159);
+    border-top-color: hsl(200, 7%, 18%);
+    border-right-color: hsl(200, 7%, 18%);
+    border-bottom-color: hsl(200, 7%, 18%);
+    border-left-color: hsl(200, 7%, 18%);
+    background-color:hsl(200, 7%, 66%);
 }
 
 .botao:active span {

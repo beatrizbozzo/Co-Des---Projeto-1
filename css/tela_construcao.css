@@ -2,7 +2,7 @@ html{
     display: flex;
     flex-direction: column;
     width:100%;
-    background-color: rgb(176, 233, 245);
+    background-color: hsl(200, 7%, 95%);
 }
 
 body{
@@ -32,13 +32,13 @@ main{
 .voltar_tela{
     width: 25rem;
     margin: 2rem;
-    border: 0.2rem solid hsl(184, 95%, 17%);
-    border-top-color:hsl(184, 95%, 17%);
-    border-left-color: hsl(184, 95%, 17%);
+    border: 0.2rem solid hsl(200, 7%, 18%);
+    border-top-color:hsl(200, 7%, 18%);
+    border-left-color: hsl(200, 7%, 18%);
     padding: 1rem;
     font-size: 1.6rem;
     text-align: center;
-    background-color: rgb(234, 242, 247);
+    background-color: hsl(200, 7%, 95%);
     align-self: center;
     border-radius: 1.2rem;
 }
